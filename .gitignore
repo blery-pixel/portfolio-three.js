@@ -1,0 +1,8 @@
+node_modules
+dist
+.env
+.env.local
+# The original GLB is ~474 MB: far above GitHub's 100 MB limit. Host it on a CDN / R2 / S3 (see README).
+public/models/*.glb
+public/models/*.gltf
+.npm-cache
